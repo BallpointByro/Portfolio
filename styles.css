@@ -4,7 +4,7 @@
 }
 
 body {
-    background-color: #4e4e4e;
+    background-color: #040026;
     color: #ffffff;
     font-family: Verdana, sans-serif;
     min-height: 100vh;
@@ -15,7 +15,7 @@ body {
 .site-header {
     padding: 2rem;
     text-align: center;
-    background-color: #3d3d3d;
+    background-color: #03001c;
 }
 
 .site-header h1 {
@@ -40,36 +40,30 @@ body {
     padding: 2rem;
 }
 
-.scrolling-link {
-    overflow: hidden;
-    white-space: nowrap;
+.current-projects a {
+    color: cornflowerblue;
 }
 
-.scrolling-link a {
-    display: inline-block;
-    color: #ffffff;
-    text-decoration: none;
-    animation: scroll-left 10s linear infinite;
+.about-me {
+    flex: 1;
+    padding: 2rem;
 }
 
-@keyframes scroll-left {
-    from {
-        transform: translateX(100%);
-    }
-
-    to {
-        transform: translateX(-100%);
-    }
+.about-me a {
+    color: cornflowerblue;
 }
 
-@media (prefers-reduced-motion: reduce) {
-    .scrolling-link a {
-        animation: none;
-    }
+.contact-me {
+    flex: 1;
+    padding: 2rem;
+}
+
+.contact-me a {
+    color: cornflowerblue;
 }
 
 footer {
     padding: 1rem;
     text-align: center;
-    background-color: #3d3d3d;
+    background-color: #03001c;
 }
